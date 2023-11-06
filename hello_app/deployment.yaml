@@ -5,7 +5,7 @@ metadata:
     app: hello-app
   name: hello-deployment
   annotation:
-    link.argocd.argoproj.io/external-link: https://hub.docker.com/repository/docker/clouduserlo$
+    link.argocd.argoproj.io/external-link: https://hub.docker.com/repository/docker/bolbus/hello-app
 spec:
   replicas: 1
   selector:
